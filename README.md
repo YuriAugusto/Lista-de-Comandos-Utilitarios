@@ -1,4 +1,4 @@
-# JavaScript-Content (JS) 💻💾
+# VS Code 💻💾
 
 ## Atalhos encontrados
 ### git remote add origin https://github.com/suaURLAqui/.git = este comando serve para definir uma origin do repositório remoto
