@@ -33,9 +33,11 @@
 ## Comandos de branchs
 ### git branch // mostra a branch atual
 ### git branch -a  //exibe todas as branchs do repositório remoto
-### git clone --branch nomeDaBranch --single-branch https://github.com/userGit/remoteRepository.git //clona uma branch específica de um repositório remoto
 ### git checkout nomeOfBranch //ele altera a branch que você irá fazer as alterações
 ### git branch -m nomeBranch //esse comando cria uma nova branch
+### git branch -d nomeDaBranch //deleta a branch local: O Git não permitirá que você exclua o branch em que está atualmente, portanto, certifique-se de fazer o git checkout nomeDaBranch para uma branch que NÃO está excluindo.
+### git push origin --delete nomeDaBranch //deleta a branch remota:  esse comando deleta a branch do repositório remoto
+### git clone --branch nomeDaBranch --single-branch https://github.com/userGit/remoteRepository.git //clona uma branch específica de um repositório remoto
 
 ## Comandos de configuração
 ### git remote -v //lista todos os repositórios cadastrados
