@@ -39,6 +39,10 @@
 ### git push origin --delete nomeDaBranch //deleta a branch remota:  esse comando deleta a branch do repositório remoto
 ### git clone --branch nomeDaBranch --single-branch https://github.com/userGit/remoteRepository.git //clona uma branch específica de um repositório remoto
 
+## Como clonar um commit específico
+### git checkout SHA ID ex: git checkout 28cd74decb47d8a5294eb59e793cb24a0f242e9e //esse comando baixa um commit específico, obs: é necessário clonar o repositório inteiro para posteriormente definir o commit específico desejado.
+### git checkout -b <new-branch-name> <commit-id-sha>  ex: git checkout -b nomeNovaBranch 28cd74decb47d8a5294eb59e793cb24a0f242e9e// esse comando cria uma nova branch para ser utilizada no commit específico definido anteriormente.
+
 ## Comandos de configuração
 ### git remote -v //lista todos os repositórios cadastrados
 ### git remote add origin https://github.com/userGit/remoteRepository.git //define uma origem remota
