@@ -82,3 +82,27 @@
 ### cls // limpa a tela do terminal
 ### (TAB) é o autocomplete
 ### <echo mensgem de texto>nome_arquivo.txt // aqui eu criei um arquivo txt chamado "nome_arquivo", contendo em seu conteúdo a mensagem "mensgem de texto".
+
+## Comandos do Angular CLI
+### ng new nomeAplicação // cria um projeto
+### npm install // baixa todas dependências do projeto que estão localizadas no arquivo package.json
+### ng generate component nomeDoComponente // cria uma pasta com um componente, contendo html, css, spec.ts e component.ts
+### ng g s nome-serviço ou ng generate service nome-serviço// cria um serviço
+### ng serve //inicia a aplicação e servidor local
+### ng serve --open ( ou) ng s -o//inicia o servidor local e abre a aplicação no browser
+### npm start //inicia o servidor de backend mockado com a porta 3000
+### npm install bootstrap //instala o bootstrap no dir do projeto
+### ng add @angular/material // instala o angular material
+### ng version // exibe a versão do angular
+### node -v //exibe a versão do node
+### npm -v //exibe a versão do npm
+### ng g m nome-do-modulo --routing//cria um modulo e cria a class de rotas   
+
+## Comandos de servidor Mock de dados
+### (https://github.com/typicode/json-server)
+### npm install -g json server //instala globalmente (ele é instalado no pc, sendo assim pode ser usado por um ou mais projetos) um servidor json para testes de api com dados mockados
+### json-server --watch db.json //inicializa o servidor do json-server 
+
+## Comandos do Typescript
+### npm run server //inicializa a aplicação com typescript no navegador
+### npm run compile //inicializa o compilador do typescript
